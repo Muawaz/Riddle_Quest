@@ -14,13 +14,11 @@ function App() {
     <div className="App">
       <NavBarComponent />
       <HeroSection />
-        {/* <h1>RiddleQuest</h1> */}
       <div className="content">
         <About />
         <Quiz/> 
       </div>
-        
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
