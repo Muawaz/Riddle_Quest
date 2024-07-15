@@ -1,23 +1,4 @@
 .App {
     text-align: center;
   }
-  
-
-/* Global Custom Scrollbar Styles */
-body {
-    scrollbar-width: thin; /* "auto" for default browser styles */
-    scrollbar-color: #4CAF50 #f1f1f1; /* thumb and track colors */
-}
-
-body::-webkit-scrollbar {
-    width: 8px; /* width of the scrollbar */
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: #4CAF50; /* color of the thumb */
-    border-radius: 10px; /* roundness of the thumb */
-}
-
-body::-webkit-scrollbar-track {
-    background: #f1f1f1; /* color of the track */
-}
+ 

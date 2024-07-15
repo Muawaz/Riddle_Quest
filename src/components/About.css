@@ -2,23 +2,23 @@
   padding: 40px 20px;
   text-align: center;
   background-color: #0454a4;
+  max-height: 400px; /* Limit height of about section */
+  overflow-y: auto; /* Enable scrollbar */
 }
 
 .about-cards {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   gap: 20px;
-  /* overflow-x: auto;
-  padding-bottom: 20px; */
+  align-items: center; /* Center align items horizontally */
+  justify-content: center; /* Center align items vertically */
 }
 
 .about-card {
-  position: relative;
   width: 90%;
-  width: 450px;
-  height: auto;
-  aspect-ratio: 4 / 3;
+  /* max-width: 450px; */
+  height: 300px; /* Fixed height for each card */
+  aspect-ratio: 4 / 3; /* Maintain aspect ratio */
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -26,7 +26,7 @@
   transition: transform 0.3s;
   background-size: cover;
   background-position: center;
-  flex: 1 1 auto;
+  position: relative;
 }
 
 .about-card:hover {
@@ -58,9 +58,31 @@
 
 .about-card-content h3 {
   margin: 10px 0;
+  font-size: 1.5rem;
 }
 
 .about-card-content p {
   margin: 0;
-  font-size: 14px;
+  font-size: 15px;
+}
+
+/* Custom Scrollbar Styles */
+.about-section::-webkit-scrollbar {
+  width: 12px;
+}
+
+.about-section::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.about-section::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.about-section::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.about-section::-webkit-scrollbar-button {
+  display: none;
 }

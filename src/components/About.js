@@ -9,28 +9,29 @@ const About = () => {
         {
           title: "Our Mission",
           image: ourmission,
-          description: "We aim to provide the best services to our customers with a focus on quality and innovation."
+          description: "To challenge minds with intriguing riddles and promote creative thinking."
         },
         {
           title: "Our Vision",
           image: ourvision,
-          description: "To be a leader in our industry and set benchmarks for others to follow."
+          description: "To become the go-to platform for riddle enthusiasts worldwide."
         },
         {
           title: "Our Values",
           image: ourvalues,
-          description: "Integrity, Excellence, and Teamwork are at the core of everything we do."
+          description: "Curiosity, Creativity, and Fun."
         }
-      ];
+    ];
+
     return (
         <div className="about-section">
             <h2>About Us</h2>
             <div className="about-cards">
                 {aboutData.map((item, index) => (
                     <div 
-                    className="about-card" 
-                    key={index} 
-                    style={{ backgroundImage: `url(${item.image})` }}
+                        className="about-card" 
+                        key={index} 
+                        style={{ backgroundImage: `url(${item.image})` }}
                     >
                         <div className="about-card-content">
                             <h3>{item.title}</h3>
