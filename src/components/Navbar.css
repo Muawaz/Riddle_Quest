@@ -1,0 +1,37 @@
+/* Custom Navbar Styles */
+.custom-navbar {
+    background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+}
+
+.custom-navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.custom-navbar .navbar-logo {
+    width: 100px; /* Adjust width as needed */
+    height: 60px;
+    margin-right: 10px;
+    /* Additional styling for the logo */
+}
+
+.custom-navbar .nav-link {
+    color: #f1f1f1 !important;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #ffcc00 !important; /* Change to your desired hover color */
+}
+
+
+.custom-navbar .navbar-nav {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.custom-navbar .navbar-collapse {
+    justify-content: center;
+}
