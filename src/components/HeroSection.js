@@ -10,7 +10,7 @@ const HeroSection = () => {
                     <Row className="align-items-center justify-content-center">
                         <Col md={6} className='text-center text-md-start text-white'>
                             <div className="hero-content text-white">
-                                <h1 className="mb-4" style={{ fontSize: "5rem"}}>Welcome to RiddleQuest</h1>
+                                <h1 className="mb-4" style={{ fontSize: "4rem"}}>Welcome to RiddleQuest</h1>
                                 <p className="lead mb-4"  style={{ fontSize: "2.5rem"}}>
                                     Solve intriguing riddles and test your wit!
                                 </p>
@@ -18,7 +18,7 @@ const HeroSection = () => {
                             </div>
                         </Col>
                         <Col md={6} className="text-md-end d-none d-md-block">
-                            <img src={heroImage} alt="Hero-Image" className="img-fluid rounded-circle shadow-lg hero-image" />
+                            <img src={heroImage} alt="Hero Image" className="img-fluid rounded-circle shadow-lg hero-image" />
                         </Col>
                     </Row>
                 </Container>
