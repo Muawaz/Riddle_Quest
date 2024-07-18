@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import Option from "./Option";
 import './Question.css';
 
 const Question = ({ questionData, onSelectOption, onNextRiddle }) => {
