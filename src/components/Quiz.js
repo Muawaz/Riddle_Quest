@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import Question from './Question';
 import axios from 'axios';
 
+import image1 from '../images/image1.jpg';
+import image2 from '../images/image2.jpg';
+
 const Quiz = () => {
     const [riddles, setriddles] = useState([]);
     const [currentRiddleIndex, setcurrentRiddleIndex] = useState(0);

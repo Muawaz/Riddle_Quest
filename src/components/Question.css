@@ -1,11 +1,13 @@
 .question-container {
+    
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin: auto;
-    width: auto; /* Adjust width as per your design */
+    width: 90%; /* Adjust width as per your design */
     height: 90%;
     transition: background 0.3s ease;
 }

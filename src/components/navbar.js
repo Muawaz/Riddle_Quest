@@ -14,7 +14,6 @@ const NavBarComponent = () => {
             <Container className="justify-content-between">
                 <Navbar.Brand href="#home" className="d-flex align-items-center">
                 <img src={logo} alt="logo" className="navbar-logo" />
-                <span className="ml-2">RiddleQuest</span>
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
