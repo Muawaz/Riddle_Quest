@@ -18,7 +18,7 @@ const HeroSection = () => {
                             </div>
                         </Col>
                         <Col md={6} className="text-md-end d-none d-md-block">
-                            <img src={heroImage} alt="Hero Image" className="img-fluid rounded-circle shadow-lg hero-image" />
+                            <img src={heroImage} alt="RiddleQuest Hero" className="img-fluid rounded-circle shadow-lg hero-image" />
                         </Col>
                     </Row>
                 </Container>
